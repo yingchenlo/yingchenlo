@@ -107,8 +107,8 @@ a {
   -webkit-transition: 0.2s;
   transition: 0.2s; }
   a:hover {
-    text-decoration: none !important;
-    color: #363F48 !important; }
+    opacity: .5;
+    color:#eee;}
   a:active, a:focus {
     outline: none;
     text-decoration: none; }
@@ -698,13 +698,14 @@ footer .icon-block-title {
 /* -  Copyright - */
 .copyright {
   opacity: .8;
-  padding: 0 30px !important; }
+  padding: 0 30px;}
 
 .copyright-left{
   float:left;
 }
 
 .copyright-right{
+  padding-top: 10px;
   float:right;
 }
 
@@ -3719,70 +3720,26 @@ img {
   padding:10px 15px !important;
   /* stops bg color from leaking outside the border: */ }
   .btn-default:hover {
-    background: #ecf0f1 !important;
-    color: #171720 !important; }
+    opacity: .7;
+    color: #ffffff !important;
+  }
 
-.btn-warning {
-  background: #d35400 !important;
-  color: #fff !important;
-  -webkit-border-radius: 20px !important;
-  border-radius: 20px !important;
-  background-clip: padding-box !important;
-  /* stops bg color from leaking outside the border: */ }
-  .btn-warning:hover {
-    color: #fff !important; }
-
-.btn-danger {
-  background: #e74c3c !important;
-  color: #fff !important;
-  -webkit-border-radius: 20px !important;
-  border-radius: 20px !important;
-  background-clip: padding-box !important;
-  /* stops bg color from leaking outside the border: */ }
-  .btn-danger:hover {
-    background: #e74c3c !important;
-    color: #fff !important; }
-
-.btn-success {
-  background: #37dd7a !important;
-  color: #fff !important;
-  -webkit-border-radius: 20px !important;
-  border-radius: 20px !important;
-  background-clip: padding-box !important;
-  /* stops bg color from leaking outside the border: */ }
-  .btn-success:hover {
-    background: #37dd7a !important;
-    color: #fff !important; }
-
-.btn-info {
-  background: #3498db !important;
-  color: #fff !important;
-  -webkit-border-radius: 20px !important;
-  border-radius: 20px !important;
-  background-clip: padding-box !important;
-  /* stops bg color from leaking outside the border: */ }
-  .btn-info:hover {
-    background: #3498db !important;
-    color: #fff !important; }
-
-.btn-back {
+.btn-back{
   background: #e1baba !important;
   color: #ffffff !important;
-  -webkit-border-radius: 20px !important;
   border-radius: 10px !important;
-  background-clip: padding-box !important;
   position: fixed;
   z-index: 99999;
   bottom: 40px;
   right: 40px;
-  padding: 10px !important;
+  padding: 15px !important;
   text-align: center!important;
   display: inline-block;
   font-size: 16px;
   }
   .btn-back:hover {
-    background: #ecf0f1 !important;
-    color: #171720 !important;
+    opacity: .7;
+    color: #000 !important;
   }
 
 .btn-link.small {
