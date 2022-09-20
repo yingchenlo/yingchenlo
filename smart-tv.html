@@ -54,43 +54,68 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-12 padding-top">
-						<div class="col-md-6 vertical-middle text-center margin-top os-animation small-screen-center" data-os-animation="fadeInUp" data-os-animation-delay="0">
-							<div class="row">
-								<img src="assets/images/SmartTV-showcase4.jpg">
+					<div class="col-md-12">
+						<div class="col-md-12 vertical-middle os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0">
+							<div class="padding-top">
+								<h3>User Journey Research</h3>
 								<p>
-									Customer journey map of the devised personalized learning system.
+									The future classroom is to provide a student-centered learning environment with differentiated individual educational contents,
+									which encourages students to be independent learners.
+									We started with the customer journey map to identify the needs of the learner and instructor in the whole process of learning.
 								</p>
-								<span class="divider-1 center-block"></span>
+								<img src="assets/images/SmartTV-showcase4.jpg" class="padding-bottom">
+								<span class="divider-1"></span>
 							</div>
 						</div>
-						<div class="col-md-6 vertical-middle text-center margin-top os-animation small-screen-center" data-os-animation="fadeInUp" data-os-animation-delay="0.2s">
-							<div class="row">
-								<img src="assets/images/SmartTV-showcase5.jpg">
+						<div class="col-md-12 vertical-middle os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0">
+							<div class="padding-top">
+								<h3>System Architecture</h3>
 								<p>
-									System architecture of the devised system.
+									The system was realized as a web service. Three modules, WEB Client, VISION, and VOICE RECORD in the front end handle the HTTP requests, hand gesture recognition/control, and speech recording, respectively.
 								</p>
-								<span class="divider-1 center-block"></span>
+								<p>
+									The VISION module detects the positions and motions of fingers through the depth image taken from the RealSense’s time of flight camera.
+								</p>
+								<p>
+									The VOICE RECORD module records the user’s voice and passes the voice to the AUDIO module at the back end, which comprises two submodules, Speaker Identification and Speech Recognition (speech to text conversion).
+								</p>
+								<p>
+									Another back-end module MINING retrieves the URL of TED-Ed video and maintains the watching history and recommendation list in the database.
+								</p>
+								<p>
+									The WEB Server replies the HTTP request of the front end, such as the voice transaction, lesson selection, content request,
+									and query by keywords.
+								</p>
+								<img src="assets/images/SmartTV-showcase5.jpg" class="padding-bottom">
+								<span class="divider-1"></span>
 							</div>
 						</div>
-						<div class="col-md-6 vertical-middle text-center margin-top os-animation small-screen-center" data-os-animation="fadeInUp" data-os-animation-delay="0.4s">
-							<div class="row">
-								<img src="assets/images/SmartTV-showcase1.jpg">
+						<div class="col-md-12 vertical-middle os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0">
+							<div class="padding-top">
+								<h3>Usability Testing</h3>
 								<p>
-									Gestures of the developed learning system.
+									We selected eight students to verify the usability of the designed learning system.
+									The test scenario considered typical usages of interactive learning. The time required for a user to accomplish a series of operations.
 								</p>
-								<span class="divider-1 center-block"></span>
+								<p>
+									Experiments confirmed that the usability of the designed system; the required operational time mostly converges to an acceptable short interval.
+									Exceptionally long time was observed when a user was unfamiliar with gesture control or stood in the wrong position.
+									In those cases, the mouse-over mode will be activated and visual hints that urge the user to move to the adequate position will be offered.
+								</p>
+								<p>
+									Furthermore, we used eye tracker to objectively and accurately record and analyze visual behavior.
+
+								</p>
+								<p>
+									Accoring to the heatmaps, firstly every participants forcused on the main tasks, and secondly the gesture prompt information.
+									Experiments confirmed that the usability of user interface and achieve the purpose of the gesture prompt information.
+								</p>
+								<img src="assets/images/SmartTV-showcase1.jpg" class="padding-bottom">
+								<img src="assets/images/SmartTV-showcase2.jpg" class="padding-bottom">
+								<span class="divider-1"></span>
 							</div>
 						</div>
-						<div class="col-md-6 vertical-middle text-center margin-top os-animation small-screen-center" data-os-animation="fadeInUp" data-os-animation-delay="0.6s">
-							<div class="row">
-								<img src="assets/images/SmartTV-showcase2.jpg">
-								<p>
-									Graphic user-interface design of the developed system.
-								</p>
-								<span class="divider-1 center-block"></span>
-							</div>
-						</div>
+
 					</div>
 				</div>
 			</div>
